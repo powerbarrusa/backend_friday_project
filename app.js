@@ -21,9 +21,7 @@ app.get("/:first", (req, res, next) => {
 })
 
 app.post("/:first", (req, res, next) => {
-  const first = req.params.first
-  const filteredFirst = data.people.filter(person => person.first_name === first)
-  filteredFirst ? res.status(200).send(filteredFirst) : res.status(404).json({error: {message: "Not found"}})
+  res.status(200).send("Post worked!")
 })
 
 app.use((err, req, res, next) => {
