@@ -20,7 +20,7 @@ app.get("/:first", (req, res, next) => {
   filteredFirst ? res.status(200).send(filteredFirst) : res.status(404).json({error: {message: "Not found"}})
 })
 
-app.post("/:first", (req, res, next) => {
+app.post("/", (req, res, next) => {
   res.status(200).send("Post worked!")
 })
 
