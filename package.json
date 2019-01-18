@@ -1,0 +1,27 @@
+{
+  "name": "backend_friday_project",
+  "version": "1.0.0",
+  "description": "Project Requirements",
+  "main": "app.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/powerbarrusa/backend_friday_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/powerbarrusa/backend_friday_project/issues"
+  },
+  "homepage": "https://github.com/powerbarrusa/backend_friday_project#readme"
+}
